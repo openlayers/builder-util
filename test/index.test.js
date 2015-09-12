@@ -7,13 +7,13 @@ lab.experiment('getLongId()', function() {
 
   lab.test('scenario 1', function(done) {
     var buildConfig = {
-      symbols: [
-        'symbol.0',
-        'symbol.2',
-        'symbol.4',
-        'symbol.6',
-        'symbol.8'
-      ],
+      symbols: {
+        'symbol.0': true,
+        'symbol.2': true,
+        'symbol.4': true,
+        'symbol.6': true,
+        'symbol.8': true
+      },
       defines: {
         'define.0': false,
         'define.1': true,
@@ -49,10 +49,10 @@ lab.experiment('getLongId()', function() {
 
   lab.test('scenario 2', function(done) {
     var buildConfig = {
-      symbols: [
-        'symbol.1',
-        'symbol.3'
-      ],
+      symbols: {
+        'symbol.1': true,
+        'symbol.3': true
+      },
       defines: {
         'define.0': true,
         'define.1': false,
@@ -83,10 +83,10 @@ lab.experiment('getLongId()', function() {
 
   lab.test('scenario 3', function(done) {
     var buildConfig = {
-      symbols: [
-        'symbol.1',
-        'symbol.3'
-      ],
+      symbols: {
+        'symbol.1': true,
+        'symbol.3': true
+      },
       defines: {
         // accept the defaults
       }
