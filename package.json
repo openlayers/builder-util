@@ -1,0 +1,22 @@
+{
+  "name": "openlayers-builder-util",
+  "version": "0.0.0",
+  "description": "Code shared by the OpenLayers build server and client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint lib"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openlayers/builder-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openlayers/builder-util/issues"
+  },
+  "homepage": "http://github.com/openlayers/builder-util",
+  "devDependencies": {
+    "eslint": "^1.4.1",
+    "eslint-config-openlayers": "^1.0.0"
+  }
+}
